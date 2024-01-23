@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+    border: 10px solid rgb(65, 37, 8);
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+img.container,
+img{
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid rgb(14, 16, 55);
+    position: relative;
+    left: 50px;
+    
+}
+
+.top_section{
+    margin-top:100px ;
+    /* height: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    right: 20px;
+}
+h4{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: end;
+    position: relative;
+    right: 2px;
+}
+
+.About_section{
+    margin: 50px;
+}
+
+h3{
+    font-size: 60px;
+    margin-bottom: 50px;
+    font-weight: bold;
+   
+    
+}
+About_section,p{
+    line-height: 25px;
+    text-align: justify;
+     letter-spacing: 1.2px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.biogrphy{
+    margin-bottom: 60px 20px;
+    font-size: 100%;
+
+}
+
+h2{
+    font-size: 20px;
+    margin-left: 50px;
+    margin: 50px;
+}
+
+ul{
+    
+    line-height: 25px;
+    
+    margin-left: 65px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+footer{
+    margin: 50px;
+    text-align: end;
+
+}
+.misile{
+     margin-right: 30px;
+     
+}
